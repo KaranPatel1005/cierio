@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <title>Cierio</title>
+    <style>
+        /* .slick-slide  {
+            width: 400px;
+            transition: transform .4s;
+            position: relative;
+        } */
+
+        /* .slick-slide:after {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transition: transform .4s;
+        } */
+
+        /* .slick-slide {
+            transform: scale(1) translate(640px);
+        } */
+ 
+        /* .slick-slide.slick-center+.slick-slide {
+            transform: scale(1);
+            z-index: 10;
+        }
+
+        .slick-slide.slick-center+.slick-slide+.slick-slide {
+            transform: scale(1.2) ;
+            z-index: 5;
+        } */
+
+        /* .slick-slide.slick-active {
+            transform: scale(0.8) translate(250px);
+        } */
+
+        /* .slick-slide.slick-center {
+            transform: scale(1.5);
+            z-index: 60;
+        }  */
+
+        /* .slick-slide.slick-cloned.slick-active:first-child{
+            transform: scale(1.5)  !important;
+        }
+.slick-center:first-child{
+    transform: scale(1.5);
+} */
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="LOGO"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle"
+                            data-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Website Development & Design</a></li>
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">SEO</a></li>
+                            <li><a href="#">Hosting (coming soon)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Process</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#" class="btn-probtn">Start a Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Banner -->
+    <section class="banner-wrp">
+        <div class="banner-text">
+            <div class="container">
+                <h1>We help brands build profitable digital foundations.</h1>
+                <p>A company website is the most important asset in the digital world. Don’t leave money on the table,
+                    let’s build your brand’s digital presence together!</p>
+
+                <a href="#" class="btn-main">Schedule a Call</a>
+            </div>
+        </div>
+
+        <img src="images/banner-shap1.svg" class="banner-shap1" alt="">
+        <img src="images/banner-shap2.svg" class="banner-shap2" alt="">
+        <img src="images/banner-shap3.svg" class="banner-shap3" alt="">
+    </section>
+    <!-- End Banner -->
+
+    <!-- Service -->
+    <section class="service-wrp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="serv-box">
+                        <div class="serv-img">
+                            <img src="images/ser-ic1.svg" alt="">
+                        </div>
+                        <h3>Branding</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="serv-box">
+                        <div class="serv-img">
+                            <img src="images/ser-ic2.svg" alt="">
+                        </div>
+                        <h3>Development & Design</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="serv-box">
+                        <div class="serv-img">
+                            <img src="images/ser-ic3.svg" alt="">
+                        </div>
+                        <h3>SEO</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="serv-box">
+                        <div class="serv-img">
+                            <img src="images/ser-ic4.svg" alt="">
+                        </div>
+                        <h3>Hosting <span>(coming soon)</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service -->
+
+    <!-- Recent Projects -->
+    <section class="recen-project">
+        <div class="container">
+            <h2>Check out some of our recent projects:</h2>
+
+            <div class="project-list">
+                <div class="slider">
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img3.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img3.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    </div>
+                    <div class="item project-img">
+                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn-main">Check all</a>
+        </div>
+
+        <img src="images/project-shap1.svg" class="project-shp1" alt="">
+        <img src="images/project-shap2.svg" class="project-shp2" alt="">
+
+        <!-- Testimonials -->
+        <div class="testimonial-wrp">
+            <div class="container">
+                <h2>What our clients have to say:</h2>
+
+                <div class="testimonial-list">
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img1.png" alt="">
+
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img2.png" alt="">
+
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img3.png" alt="">
+
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img1.png" alt="">
+
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/test-shap1.svg" class="test-shp1" alt="">
+        </div>
+        <!-- End Testimonials -->
+
+        <!-- How we Work -->
+        <div class="we-work-wrp">
+            <div class="container">
+                <h2>How we work with you...</h2>
+
+                <ul>
+                    <li>
+                        <div class="step-bx">
+                            <h3>Step <strong>1</strong> <span>Research <strong>&</strong> Discovery</span></h3>
+                            <p>We conduct market research and work with you to fully understand your company, its needs,
+                                target audience, as well as competition in order to create the most effective solution
+                                for your brand.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-bx">
+                            <h3>Step <strong>2</strong> <span>Website Design</span></h3>
+                            <p>Using information from our Research & Discovery phase a high-fidelity wireframe is
+                                designed that is consistent with your current or new brand identity.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-bx">
+                            <h3>Step <strong>3</strong> <span>Website Development</span></h3>
+                            <p>Upon design approval, websites are custom coded to match designs down to the pixel and
+                                tested to ensure top notch user experience and SEO compatibility.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-bx">
+                            <h3>Step <strong>4</strong> <span>Website Analytics <strong>&</strong> Deployment</span>
+                            </h3>
+                            <p>After completing development we launch your website and set up user conversion tracking
+                                in order to prepare you for any advertising ventures in the future.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <img src="images/work-shap1.svg" class="workshap1" alt="">
+            <img src="images/work-shap2.svg" class="workshap2" alt="">
+        </div>
+        <!-- End How we Work -->
+
+        <!-- Recent Articales -->
+        <div class="recent-blogs">
+            <div class="container">
+                <h2>Our Recent Articles...</h2>
+
+                <div class="recent-blog-lst">
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img1.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img2.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img3.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img1.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img2.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Recent Articales -->
+    </section>
+    <!-- End Recent Projects -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="foot-abt">
+                        <img src="images/logo.svg" alt="">
+                        <p>We help brands build profitable digital foundations.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="foot-links">
+                        <h4>QUICK LINKS</h4>
+
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Process</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="foot-links">
+                        <h4>CONTACT</h4>
+
+                        <div class="social-bx">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <p>© 2021 Cierio. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-7 col-sm-7">
+                    <div class="term-co">
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Prevacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/smooth.js"></script>
+
+    <script type="text/javascript">
+        $('.slider').slick({
+            centerMode: true,
+            arrows: true,
+            dots: true,
+            centerPadding: '0px',
+            slidesToShow: 5,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+var a = document.querySelectorAll(".slick-slide.slick-active");
+console.log(a);
+        // var imgs = $('.slider img');
+        // imgs.each(function () {
+        //     var item = $(this).closest('.item');
+        //     item.css({
+        //         'background-image': 'url(' + $(this).attr('src') + ')',
+        //         'background-position': 'center',
+        //         '-webkit-background-size': 'cover',
+        //         'background-size': 'cover',
+        //     });
+        //     $(this).hide();
+        // });
+
+        $('.testimonial-list').slick({
+            centerMode: false,
+            arrows: true,
+            dots: false,
+            slidesToShow: 3,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $('.recent-blog-lst').slick({
+            centerMode: false,
+            arrows: true,
+            dots: true,
+            slidesToShow: 3,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
