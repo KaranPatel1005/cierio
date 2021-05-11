@@ -222,7 +222,8 @@ img.banner-shap3{
     transform: translate(0,-50%);
     z-index: 5;
 }
-.banner-text h1{
+.banner-text h1,
+.blog h1{
     font-size: 68px;
     font-weight: bold;
     line-height: 80px;
@@ -230,7 +231,8 @@ img.banner-shap3{
     text-align: center;
     margin: 0 0 35px;
 }
-.banner-text p{
+.banner-text p,
+.blog p{
     font-size: 18px;
     font-weight:300;
     color: #fff;
@@ -800,3 +802,19 @@ footer{
     color: #fff;
 }
 /* ***** End Footer ***** */
+
+
+/* ***** Blog Page ***** */
+.blog{
+    padding-top: 175px;
+}
+.blog h1,
+.blog p{
+    text-align: left;
+}
+
+.blog p{
+    margin: 0 0 30px 0;
+}
+
+/* ***** Blog Page ***** */
