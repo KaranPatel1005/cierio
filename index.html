@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <title>Cierio</title>
+    <title>Home | Cierio</title>
 </head>
+
 <body>
 
-    <!-- Header -->
-    <nav class="navbar navbar-default">
+    <!--Header -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="LOGO"></a>
-            </div>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="LOGO"></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" id="menu">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Website Development & Design</a></li>
-                            <li><a href="#">Branding</a></li>
-                            <li><a href="#">SEO</a></li>
-                            <li><a href="#">Hosting (coming soon)</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item"><a href="./web-design-development.html">Website Development &
+                                    Design</a></li>
+                            <li class="dropdown-item"><a href="./branding-identity.html">Branding</a></li>
+                            <li class="dropdown-item"><a href="./technical-seo.html">SEO</a></li>
+                            <li class="dropdown-item"><a>Hosting (coming soon)</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#" class="btn-probtn">Start a Project</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html#process">Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item"><a href="./schedule-call.html" class="btn-probtn">Start a Project</a></li>
                 </ul>
             </div>
         </div>
@@ -53,11 +67,10 @@
     <section class="banner-wrp">
         <div class="banner-text">
             <div class="container">
-                <h1>We help brands build profitable digital foundations.</h1>
-                <p>A company website is the most important asset in the digital world. Don’t leave money on the table,
-                    let’s build your brand’s digital presence together!</p>
+                <h1>We help brands build profitable digital foundations<span>.</span></h1>
+                <p>A company website is the most important asset in the digital world. Don’t leave money on the table, let’s build your brand’s digital presence together!</p>
 
-                <a href="#" class="btn-main">Schedule a Call</a>
+                <a href="./schedule-call.html" class="btn-main">Schedule a Call</a>
             </div>
         </div>
 
@@ -71,7 +84,7 @@
     <section class="service-wrp">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <div class="serv-box">
                         <div class="serv-img">
                             <img src="images/ser-ic1.svg" alt="">
@@ -79,7 +92,7 @@
                         <h3>Branding</h3>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <div class="serv-box">
                         <div class="serv-img">
                             <img src="images/ser-ic2.svg" alt="">
@@ -87,7 +100,7 @@
                         <h3>Development & Design</h3>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <div class="serv-box">
                         <div class="serv-img">
                             <img src="images/ser-ic3.svg" alt="">
@@ -95,7 +108,7 @@
                         <h3>SEO</h3>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <div class="serv-box">
                         <div class="serv-img">
                             <img src="images/ser-ic4.svg" alt="">
@@ -111,64 +124,47 @@
     <!-- Recent Projects -->
     <section class="recen-project">
         <div class="container">
-            <h2>Check out some of our recent projects:</h2>
+            <h2>Check out some of our recent projects<span>:</span></h2>
 
             <div class="project-list">
                 <div class="slider">
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img1.png" alt=""></a>
                     </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img2.png" alt=""></a>
                     </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img3.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img1.png" alt=""></a>
                     </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img1.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img1.png" alt=""></a>
                     </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img2.png" alt=""></a>
                     </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img1.png" alt=""></a>
-                    </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img2.png" alt=""></a>
-                    </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img3.png" alt=""></a>
-                    </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img1.png" alt=""></a>
-                    </div>
-                    <div class="item project-img">
-                        <a href="#"><img src="images/project-img2.png" alt=""></a>
+                    <div class="project-img">
+                        <a><img src="images/project-img3.png" alt=""></a>
                     </div>
                 </div>
             </div>
 
-            <a href="#" class="btn-main">Check all</a>
+            <a href="./portfolio.html" class="btn-main">Check all</a>
         </div>
 
         <img src="images/project-shap1.svg" class="project-shp1" alt="">
         <img src="images/project-shap2.svg" class="project-shp2" alt="">
 
         <!-- Testimonials -->
-        <div class="testimonial-wrp">
+        <div class="testimonial-wrp" id="testimonials">
             <div class="container">
-                <h2>What our clients have to say:</h2>
-
+                <h2>What our clients have to say<span>:</span></h2>
                 <div class="testimonial-list">
                     <div class="test-block">
                         <div class="test-bx">
                             <img src="images/test-img1.png" alt="">
-
                             <h3>Jane Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <div class="testfoot">
                                 <div class="raiting-bx">
                                     <i class="fas fa-star"></i>
@@ -184,12 +180,8 @@
                     <div class="test-block">
                         <div class="test-bx">
                             <img src="images/test-img2.png" alt="">
-
                             <h3>Jane Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <div class="testfoot">
                                 <div class="raiting-bx">
                                     <i class="fas fa-star"></i>
@@ -205,12 +197,8 @@
                     <div class="test-block">
                         <div class="test-bx">
                             <img src="images/test-img3.png" alt="">
-
                             <h3>Jane Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <div class="testfoot">
                                 <div class="raiting-bx">
                                     <i class="fas fa-star"></i>
@@ -226,12 +214,42 @@
                     <div class="test-block">
                         <div class="test-bx">
                             <img src="images/test-img1.png" alt="">
-
                             <h3>Jane Doe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img1.png" alt="">
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="testfoot">
+                                <div class="raiting-bx">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <h6>01.20.2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-bx">
+                            <img src="images/test-img1.png" alt="">
+                            <h3>Jane Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <div class="testfoot">
                                 <div class="raiting-bx">
                                     <i class="fas fa-star"></i>
@@ -246,7 +264,6 @@
                     </div>
                 </div>
             </div>
-
             <img src="images/test-shap1.svg" class="test-shp1" alt="">
         </div>
         <!-- End Testimonials -->
@@ -254,37 +271,43 @@
         <!-- How we Work -->
         <div class="we-work-wrp">
             <div class="container">
-                <h2>How we work with you...</h2>
-
+                <h2>How we work with you<span>...</span></h2>
                 <ul>
                     <li>
                         <div class="step-bx">
-                            <h3>Step <strong>1</strong> <span>Research <strong>&</strong> Discovery</span></h3>
-                            <p>We conduct market research and work with you to fully understand your company, its needs,
-                                target audience, as well as competition in order to create the most effective solution
-                                for your brand.</p>
+                            <div class="d-flex align-items-cener justify-content-between">
+                                <h3 class="d-inline-block">Step <strong>1</strong></h3>
+                                <h3 class="d-inline-block font-weight-normal">Research <strong>&</strong> Discovery</h3>
+                            </div>
+                            <p>We conduct market research and work with you to fully understand your company, its needs, target audience, as well as competition in order to create the most effective solution for your brand.</p>
                         </div>
                     </li>
                     <li>
                         <div class="step-bx">
-                            <h3>Step <strong>2</strong> <span>Website Design</span></h3>
-                            <p>Using information from our Research & Discovery phase a high-fidelity wireframe is
-                                designed that is consistent with your current or new brand identity.</p>
+                            <div class="d-flex align-items-cener justify-content-between">
+                                <h3 class="d-inline-block">Step <strong>2</strong></h3>
+                                <h3 class="d-inline-block font-weight-normal">Website Design</h3>
+                            </div>
+                            <p>Using information from our Research & Discovery phase a high-fidelity wireframe is designed that is consistent with your current or new brand identity.</p>
                         </div>
                     </li>
                     <li>
                         <div class="step-bx">
-                            <h3>Step <strong>3</strong> <span>Website Development</span></h3>
-                            <p>Upon design approval, websites are custom coded to match designs down to the pixel and
-                                tested to ensure top notch user experience and SEO compatibility.</p>
+                            <div class="d-flex align-items-cener justify-content-between">
+                                <h3 class="d-inline-block">Step <strong>3</strong></h3>
+                                <h3 class="d-inline-block font-weight-normal">Website Development</h3>
+                            </div>
+                            <p>Upon design approval, websites are custom coded to match designs down to the pixel and tested to ensure top notch user experience and SEO compatibility.</p>
                         </div>
                     </li>
                     <li>
                         <div class="step-bx">
-                            <h3>Step <strong>4</strong> <span>Website Analytics <strong>&</strong> Deployment</span>
-                            </h3>
-                            <p>After completing development we launch your website and set up user conversion tracking
-                                in order to prepare you for any advertising ventures in the future.</p>
+                            <div class="d-flex align-items-cener justify-content-between">
+                                <h3 class="d-inline-block">Step <strong>4</strong></h3>
+                                <h3 class="d-inline-block font-weight-normal">Website Analytics <strong>&</strong> Deployment
+                                </h3>
+                            </div>
+                            <p>After completing development we launch your website and set up user conversion tracking in order to prepare you for any advertising ventures in the future.</p>
                         </div>
                     </li>
                 </ul>
@@ -298,8 +321,7 @@
         <!-- Recent Articales -->
         <div class="recent-blogs">
             <div class="container">
-                <h2>Our Recent Articles...</h2>
-
+                <h2>Our Recent Articles<span>...</span></h2>
                 <div class="recent-blog-lst">
                     <div class="recent-box">
                         <div class="blog-bx">
@@ -346,6 +368,15 @@
                             <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
                         </div>
                     </div>
+                    <div class="recent-box">
+                        <div class="blog-bx">
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>APPS / ONE PAGE / RESPONSIVE</p>
+                            <img src="images/blog-img1.png" alt="">
+
+                            <h6><a href="#">Read more...</a> <span>01.20.2020</span></h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -357,34 +388,40 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-12 col-12">
                     <div class="foot-abt">
-                        <img src="images/logo.svg" alt="">
+                        <img src="images/logo.png" alt="">
                         <p>We help brands build profitable digital foundations.</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-6 col-xs-6 col-6">
                     <div class="foot-links">
                         <h4>QUICK LINKS</h4>
 
                         <ul>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Process</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="./web-design-development.html">Services</a></li>
+                            <li><a href="./portfolio.html">Portfolio</a></li>
+                            <li><a href="./index.html#testimonials">Testimonials</a></li>
+                            <li><a href="./aboutus.html#process">Process</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./aboutus.html">About us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-6 col-xs-6 col-6">
                     <div class="foot-links">
-                        <h4>CONTACT</h4>
-
+                        <h4 class="text-md-left text-right">CONTACT</h4>
                         <div class="social-bx">
-                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#mailpopup"><i
+                                    class="fas fa-envelope"></i></a>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#">
+                                <svg width="17" height="17" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.997 7.33177C8.97722 7.33177 7.32888 8.98013 7.32888 11C7.32888 13.0199 8.97722 14.6682 10.997 14.6682C13.0169 14.6682 14.6652 13.0199 14.6652 11C14.6652 8.98013 13.0169 7.33177 10.997 7.33177ZM21.9988 11C21.9988 9.48097 22.0125 7.97571 21.9272 6.45943C21.8419 4.69824 21.4402 3.13519 20.1523 1.84732C18.8617 0.556694 17.3014 0.157674 15.5403 0.0723668C14.0213 -0.0129408 12.516 0.000818524 10.9998 0.000818524C9.4808 0.000818524 7.97556 -0.0129408 6.45931 0.0723668C4.69815 0.157674 3.13513 0.559446 1.84728 1.84732C0.556684 3.13794 0.157672 4.69824 0.0723655 6.45943C-0.0129406 7.97846 0.000818509 9.48373 0.000818509 11C0.000818509 12.5163 -0.0129406 14.0243 0.0723655 15.5406C0.157672 17.3018 0.559436 18.8648 1.84728 20.1527C3.13788 21.4433 4.69815 21.8423 6.45931 21.9276C7.97831 22.0129 9.48355 21.9992 10.9998 21.9992C12.5188 21.9992 14.024 22.0129 15.5403 21.9276C17.3014 21.8423 18.8645 21.4406 20.1523 20.1527C21.4429 18.8621 21.8419 17.3018 21.9272 15.5406C22.0153 14.0243 21.9988 12.519 21.9988 11ZM10.997 16.6441C7.87374 16.6441 5.35309 14.1234 5.35309 11C5.35309 7.87664 7.87374 5.35594 10.997 5.35594C14.1203 5.35594 16.641 7.87664 16.641 11C16.641 14.1234 14.1203 16.6441 10.997 16.6441ZM16.8722 6.44292C16.1429 6.44292 15.554 5.85402 15.554 5.12478C15.554 4.39554 16.1429 3.80664 16.8722 3.80664C17.6014 3.80664 18.1903 4.39554 18.1903 5.12478C18.1905 5.29794 18.1565 5.46945 18.0904 5.62947C18.0242 5.78949 17.9271 5.93489 17.8047 6.05733C17.6822 6.17978 17.5369 6.27686 17.3768 6.34303C17.2168 6.40919 17.0453 6.44314 16.8722 6.44292Z"
+                                        fill="#3ADFF0" />
+                                </svg>
+                            </a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-youtube"></i></a>
                         </div>
@@ -396,14 +433,14 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-sm-5">
+                <div class="col-md-5 col-sm-5" id="one">
                     <p>© 2021 Cierio. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-7 col-sm-7">
+                <div class="col-md-7 col-sm-7" id="two">
                     <div class="term-co">
                         <ul>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Prevacy Policy</a></li>
+                            <li><a href="javascript:void(0);" data-toggle="modal" data-target="#termsandconditions">Terms & Conditions</a></li>
+                            <li><a href="javascript:void(0);" data-toggle="modal" data-target="#privacypolicy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -412,62 +449,112 @@
     </div>
     <!-- End Footer -->
 
+    <!-- Mail Popup -->
+    <div id="mailpopup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><i class="fal fa-times"></i></button>
+
+                <div class="mail-box">
+                    <h2>Have a general inquiry <span>?</span></h2>
+
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn-main">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Mail Popup -->
+
+    <!-- Terms & Conditions Popup -->
+    <div id="termsandconditions" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><i class="fal fa-times"></i></button>
+
+                <div class="mail-box">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Terms & Conditions Popup -->
+
+    <!-- Privacy Policy Popup -->
+    <div id="privacypolicy" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><i class="fal fa-times"></i></button>
+
+                <div class="mail-box">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Privacy Policy Popup -->
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/smooth.js"></script>
-
+    <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript">
         $('.slider').slick({
             centerMode: true,
             arrows: true,
             dots: true,
             centerPadding: '0px',
-            slidesToShow: 5,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
+            slidesToShow: 3,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 3
                 }
-            ]
+            }, {
+                breakpoint: 447,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    slidesToShow: 1
+                }
+            }]
         });
+
         $('.testimonial-list').slick({
             centerMode: false,
             arrows: true,
-            dots: false,
+            dots: true,
             slidesToShow: 3,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 1
-                    }
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: false,
+                    slidesToShow: 1
                 }
-            ]
+            }, {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerMode: false,
+                    slidesToShow: 1
+                }
+            }]
         });
 
         $('.recent-blog-lst').slick({
@@ -475,24 +562,21 @@
             arrows: true,
             dots: true,
             slidesToShow: 3,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        slidesToShow: 1
-                    }
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 1
                 }
-            ]
+            }, {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 1
+                }
+            }]
         });
     </script>
 </body>
